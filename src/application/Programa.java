@@ -33,6 +33,10 @@ public class Programa {
 		
 		System.out.println("Conta x = " + x);
 		System.out.println("Conta y = " + y);
+		
+		ContaPF novaConta = new ContaPJ(1034, "Josefa", 500.00, 1200.00);
+		novaConta.sacar(200.00);
+		System.out.println("Saldo da nova conta: " + novaConta.getSaldo());
 
 	}
 
