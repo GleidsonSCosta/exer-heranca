@@ -27,5 +27,10 @@ public class ContaPJ extends ContaPF {
 		}
 		
 	}
+	@Override
+	public void sacar(Double valor) {
+		super.sacar(valor);
+		saldo -= 2.0;
+	}
 	
 }
