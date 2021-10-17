@@ -12,7 +12,7 @@ public class Programa {
 		ContaPJ contaPj = new ContaPJ(1002, "Maria", 0.00, 500.00);
 		
 		//  UPCASTING
-		//possivel a super classe receber atributos das sub classes
+		//possivel a super classe receber um objeto da subclasse como atributo
 		ContaPF contaPf01 = contaPj;
 		ContaPF contaPf02 = new ContaPJ (1003, "Joana", 0.0, 2000.00);
 		ContaPF contaPf03 = new ContaPoup (1004, "João", 0.0, 1000.00);
